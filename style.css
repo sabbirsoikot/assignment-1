@@ -14,31 +14,51 @@ main, .footer{
 }
 
 /* heading Area */
-.header-area{
-    background-image: url("images/banner/banner1.png");
+.header-area {
+    padding: 0 80px;
+    background-image: url(images/banner/banner1.png);
     background-repeat: no-repeat;
+    background-position: left;
+    height: 700px;
 }
 .header-info{
-    padding: 360px 0px;
+
+}
+.header {
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin: 200px 0;
 }
 .header-info h1{
-
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
 }
 .header-info p{
-
+    color: #444343;
+    margin: 20px 0px;
+    font-size: 16px;
 }
 .contact-btn{
-
+    font-size: 20px;
+    background-color: #F15B22;
+    padding: 10px 35px;
+    color:#fff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
 }
 
 /* summary area */
 .summary{
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 80px;
+    width: 100%;
 }
 .about-summary{
-
+    padding: 0 30px;
 }
 .about-summary h2{
     color: #151414;
